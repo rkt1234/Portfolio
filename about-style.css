@@ -1,0 +1,134 @@
+body
+{
+    background-color: rgb(4, 7, 32);
+    /* background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: grey;
+}
+
+.material-icons
+{
+    color: wheat;
+    size: 100px;
+}
+i
+{
+    color: wheat;
+    font-size: 30px;
+}
+.navigation-bar
+{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 50px;
+    width:  auto;
+    border-radius: 10px;
+    font-family:monospace
+}
+.navigation-bar a
+{
+    text-decoration: none;
+    color: wheat;
+}
+.navigation-bar a:hover
+{
+    color: aqua;
+    
+}
+.navul
+{
+    display: flex;
+    gap: 20px;
+}
+.navul li
+{
+    list-style: none;
+}
+.bar 
+{
+    margin-top: 30px;
+    margin-right: 10px;
+    display: none;
+}
+.wrapper
+{
+    display: flex;
+    margin: 15vh 10vh 0 10vh;
+}
+.circleavatar
+{
+    /* margin-top: 50%; */
+    margin-left: 5%; 
+    width:  300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+    display: inline;
+}
+.text
+{
+    padding-left: 10vh;
+    text-align: justify;
+    /* width: 800px; */
+    /* height: 10px; */
+    font-size: 25px;
+    color:teal;
+    font-family: Lato;
+    
+}
+.wrapper
+{
+    display: flex;
+    background-color: rgb(4, 7, 32,.8);
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items:center;
+    padding: 10vh;
+    /* background: linear-gradient(to bottom, #0033cc 0%, #00ffff 100%); */
+    box-shadow: 2px 2px 10px wheat
+    
+}
+@media (max-width:1000px)
+{
+    .circleavatar
+    {
+        height: 150px;
+        width: 150px;
+    }
+    .navul
+    {
+        font-size: 20px;
+
+    }
+    .fa
+    {
+        font-size: 20px;
+    }
+    .text{
+        /* margin: 2vh 3vh 0 3vh; */
+        text-align: center;
+        padding: 5vh 0 0 0 ;
+    }
+    .wrapper{
+        flex-direction: column;
+        margin: 10vh 3vh 0 3vh;
+        padding: 4vh 1vh 4vh 1vh;
+    }
+}
+/* @media (max-width:350px){
+    .navul
+    {
+        font-size: 20px;
+
+    }
+    .fa
+    {
+        font-size: 20px;
+    }
+} */
